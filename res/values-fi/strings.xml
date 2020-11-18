@@ -1,0 +1,41 @@
+<resources>
+	
+    <string name="author">Nhut Do</string>
+    <string name="app_created">2012</string>
+    <string name="app_name">Ajanottokello</string>
+    <string name="menu_settings">Asetukset</string>
+    <string name="title_activity_main">@string/app_name</string>
+	<string name="title_activity_settings">Ajanottokello &#45; Asetukset</string>
+    <string name="button_start">Käynnistä</string>
+    <string name="button_stop">Pysäytä</string>
+    <string name="button_clear">Tyhjennä</string>
+    <string name="button_lap">Kierros</string>
+    <string name="menu_send_email">Lähetä sähköposti</string>
+    <string name="menu_about">Tietoja&#8230;</string>
+    <string name="menu_about_message">Tämä on yksinkertainen ajanottokellosovellus. Tällä voit otta ajan.\n\n%1$s\nSovelluksen on kehittänyt %2$s (%3$s).</string>
+    <string name="button_ok">OK</string>
+    <string name="text_lap">Kierros</string>
+    <string name="menu_send_sms">Lähetä tekstiviesti</string>
+    <string name="exit_confirm">Haluatko ihan varmasti poistua sovelluksesta?</string>
+    <string name="button_yes">Kyllä</string>
+    <string name="button_no">Ei</string>
+    <string name="email_receiver_title">Sähköpostiosoite</string>
+    <string name="email_receiver">Aseta oletus sähköpostiosoite lähetystä varten.%1$s</string>
+    <string name="email_include_takentime_title">Liitä mukaan aikaleimat</string>
+    <string name="email_include_takentime">Otettujen aikojen alku- ja lopetusaikaleimat viestiin.</string>
+    <string name="sms_receiver_title">Puhelinnumero</string>
+    <string name="sms_receiver">Aseta oletus puhelinnumero SMS viestin lähetystä varten.%1$s</string>
+    <string name="sms_include_takentime_title">Liitä mukaan aikaleimat</string>
+    <string name="sms_include_takentime">Aloitus- ja lopetusaikaleimat viestiin.</string>
+    <string name="settings_title_email_config">Sähköpostin lähetysasetukset</string>
+    <string name="settings_title_sms_config">Tekstiviestin lähetysasetukset</string>
+    <string name="menu_email">Email</string>
+    <string name="menu_sms">SMS</string>
+    <string name="send_email_subject">Android Ajanottokellosovellus</string>
+    <string name="email_sent">Sähköpostiviesti on lähetetty.</string>
+    <string name="email_not_sent">Sähköpostiviestiä EI OLE lähetetty.</string>
+    <string name="sms_sent">Tekstiviesti on lähetetty.</string>
+    <string name="sms_not_sent">Tekstiviesti EI OLE lähetetty.</string>
+    <string name="send_error">Yritä uudelleen.</string>
+    
+</resources>

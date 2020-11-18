@@ -1,0 +1,15 @@
+<project default="check-unused-resources" basedir=".">
+	<property name="dir.jdk" value="C:\Java\jdk1.6.0_25" />
+	
+	<target name="sign-for-google-play">
+		<exec dir="${dir.jdk}\bin" executable="jarsigner.exe">
+			<arg value="-verbose -sigalg MD5withRSA -digestalg SHA1 -keystore ..\android.keystore bin\Stopwatch.apk androidkey"/>
+		</exec>
+	</target>
+	
+	<target name="check-unused-resources" >
+	    <java jar="AndroidUnusedResources1.6.2.jar" fork="true">
+	    </java>
+	</target>
+
+</project>
