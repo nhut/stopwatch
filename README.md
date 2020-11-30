@@ -1,5 +1,5 @@
 # Note!
-This code is not maintained anymore. If you like code changes, feel free to fork and contribute.
+This code is not maintained anymore. If you like code changes, feel free to fork the project.
 
 v1.6 (27.9.2012)
 - allowed screen rotation (portrait/landscape)
